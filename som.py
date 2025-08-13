@@ -1,0 +1,10 @@
+list = ['steve', 'alex', 'creeper', 'bin']
+print("lenth of list",len(list))
+print("first eliment",list[0])
+print("first eliment",list[-1])
+list.append("steve")
+print(list)
+list.remove('alex')
+print(list)
+list.reverse()
+print(list)
