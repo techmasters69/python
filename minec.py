@@ -1,10 +1,13 @@
-print ("star pattern /n")
-for i in range(1,6):
-    for j in range(i):
-        print("*", end="")
-    print('\n')
-print("inverted star pattern \n")
-for i in range (6,1,-1):
-        for j in range(i, 1, -1):
-            print("*", end="")
-        print('\n')
+print("hello, i am minecraft. What is your name? : ")
+name = input()
+print(f"Nice to meet you, {name}!")
+print("how are u feeling today? (good/bad) : ")
+mood = input().lower
+if mood == "good":
+    print("i am glad to hear that!")
+elif mood == "bad":
+    print("i am sorry to hear that. Hope things briten up soon")
+else:
+    print("i see. Sometimes it i shard to put feeling into words")
+
+print(f"it was nice chatting with u {name}. goodbye")
